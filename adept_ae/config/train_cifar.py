@@ -28,7 +28,7 @@ lr2 = 1e-2           # learning rate for the global model
 
 lr_sigma = 0.0  # learning rate for sigma
 assert not (fedavg and personalized)
-latent_dims = 50     # run for different latex dimensions
+latent_dims = 50     # latent dimensions
 xi = 1e-6                   # hyper prior for sigma
 
 

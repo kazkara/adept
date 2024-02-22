@@ -386,8 +386,6 @@ def train(rank, test_iterator, class_dist, args):
                 if batch_count == 19: #prevent asyn in updates for mnist
                     break
             batch_count += 1
-            if(rank==0):
-                torch.save(model.state_dict(), './bbb10')
         
         # record the sigma's
         with torch.no_grad():

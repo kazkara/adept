@@ -572,9 +572,7 @@ def train(rank, test_iterator, class_dist, args):
                 
             batch_count += 1
 
-            if(rank==0):
-                torch.save(model.state_dict(), './bbb10')
-            
+
             
 
         lr_scheduler_p.step()
