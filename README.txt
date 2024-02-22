@@ -1,12 +1,11 @@
 
 =======================================================================
 
-* Please note that this code has not been developed for distribution purposes. 
 
 
 Dependencies
 ------------
-Python 			          3.8
+Python 			  3.8
 cudatoolkit               10.1.243
 numpy                     1.18.5
 pytorch                   1.5.1
@@ -34,7 +33,7 @@ The codes folder consists of the following files/folder:
 
     - main.py: main file to run AE experiments
 
-    - vae2.py: contains AE models to be used
+    - model.py: contains AE models to be used
 
     - partition_dataset.py: partition datasets to introduce heterogeneity, so that each client has samples from one class
 
