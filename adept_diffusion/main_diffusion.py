@@ -953,13 +953,9 @@ if __name__ == "__main__":
 
 
     K = 1 #ratio of clients that participates in a communication round
-    if K != 1:
-        save_location = 'General client sampling Mnist Results/' #Choose save location
-    else:
-        save_location = 'General Mnist Results/' #Choose save location
-        
-             #True for personalzied training, False for Local Training
 
+    save_location = 'results/Mnist Results/' #Choose save location
+        
     
     cl_worker = 1 
     fedavg = False              #True if testing for Federated Averaging

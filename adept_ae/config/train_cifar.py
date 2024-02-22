@@ -41,4 +41,4 @@ gen_latent_dims = 5         # latent dimension for synthetic data generation
 train_num = 10              # number of training sample for synthetic dataset
 classorder = [i for i in range(size*cl_worker)]     # auxiliary vrbl for dataset partition
 data_ratio = 1.0 # 0.1 for mnist fashion mnist, 0.25 for cifar
-save_location = 'CIFAR Results/'
+save_location = 'results/CIFAR Results/'

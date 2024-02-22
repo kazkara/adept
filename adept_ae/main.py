@@ -603,14 +603,14 @@ if __name__ == "__main__":
     # set the save path
 
     if cifar100:
-        save_location = 'Cifar100 Results/' #Choose save location
+        save_location = 'results/CIFAR Results/' #Choose save location
     elif mnist:
         if fmnist:
-            save_location = 'Fashion Mnist Results/'
+            save_location = 'results/Fashion Mnist Results/'
         else:
-            save_location = 'Mnist Results/' #Choose save location
+            save_location = 'results/Mnist Results/' #Choose save location
     else:
-        save_location = 'Synthetic Results/'
+        save_location = 'results/Synthetic Results/'
 
     
     cl_worker = 1               
