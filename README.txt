@@ -1,3 +1,14 @@
+If you would like to use our work in your research please cite as:
+
+@misc{ozkara2024hierarchical,
+      title={Hierarchical Bayes Approach to Personalized Federated Unsupervised Learning}, 
+      author={Kaan Ozkara and Bruce Huang and Ruida Zhou and Suhas Diggavi},
+      year={2024},
+      eprint={2402.12537},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
 
 =======================================================================
 
