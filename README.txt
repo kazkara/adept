@@ -1,20 +1,6 @@
-Please let us know of any issues/feedback by emailing at kaan@g.ucla.edu. If you would like to use our work in your research please cite as:
-
-@misc{ozkara2024hierarchical,
-      title={Hierarchical Bayes Approach to Personalized Federated Unsupervised Learning}, 
-      author={Kaan Ozkara and Bruce Huang and Ruida Zhou and Suhas Diggavi},
-      year={2024},
-      eprint={2402.12537},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
 
 
-=======================================================================
-
-
-
-Dependencies
+# Dependencies
 ------------
 Python 			  3.8
 cudatoolkit               10.1.243
@@ -24,7 +10,7 @@ scipy                     1.5.0
 torchvision               0.6.1
 
 
-Directory structure
+# Directory structure
 -------------------
 The codes folder consists of the following files/folder:
 
@@ -51,7 +37,7 @@ The codes folder consists of the following files/folder:
     - sep_logsumexp.py: includes the regularization part of the loss function to differentiate over global model and variance
 
 
-Running code
+# Running code
 ------------
 
 To run our code for each case, we need to manually provide the paramaters in config files under config/ folder:
@@ -85,7 +71,19 @@ To run our code for each case, we need to manually provide the paramaters in con
 
     example use in adept_ae: python main.py config/train_fmnist.py 
 
-		
+# Reference
+Please let us know of any issues/feedback by emailing at kaan@g.ucla.edu. If you would like to use our work in your research please cite as:
+
+@misc{ozkara2024hierarchical,
+      title={Hierarchical Bayes Approach to Personalized Federated Unsupervised Learning}, 
+      author={Kaan Ozkara and Bruce Huang and Ruida Zhou and Suhas Diggavi},
+      year={2024},
+      eprint={2402.12537},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+# Notes
 * Occasionally, during the first run when data is not yet downloaded there occurs to be a bug in pytorch.distributed causing Broken pipe, running the script one more time fixes it.
 
 * Please see the comments in the code for detailed information about hyperparameters. 
