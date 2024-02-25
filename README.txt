@@ -1,4 +1,4 @@
-If you would like to use our work in your research please cite as:
+Please let us know of any issues/feedback by emailing at kaan@g.ucla.edu. If you would like to use our work in your research please cite as:
 
 @misc{ozkara2024hierarchical,
       title={Hierarchical Bayes Approach to Personalized Federated Unsupervised Learning}, 
